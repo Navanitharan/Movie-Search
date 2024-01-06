@@ -32,7 +32,6 @@ input:hover{
 }
 button:hover{
     box-shadow: 4px 8px 16px rgb(46, 148, 208);
-    width: 185px;
 }
 .btn{
     background-color: rgb(46, 148, 208);
