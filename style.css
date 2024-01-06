@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+}
+button{
+    transition: all ease-in-out 0.3s;
+}
+input{
+    width: 70%;
+    padding: 16px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #46464670;
+    transition: all ease-in 0.3s;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgb(46, 148, 208);
+    box-shadow: 4px 8px 16px rgb(46, 148, 208);
+}
+input:hover{
+    box-shadow: 4px 8px 16px rgb(46, 148, 208);
+    width: 76%;
+}
+button:hover{
+    box-shadow: 4px 8px 16px rgb(46, 148, 208);
+    width: 185px;
+}
+.btn{
+    background-color: rgb(46, 148, 208);
+    color: white;
+    width: 25%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container{
+    color: white;
+    width: 700px;
+    margin:60px auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#title{
+    margin-top: 0;
+}
+#poster{
+    width: 100%;
+}
+@media screen and (max-width:620px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 0px 5px 0px 5px;
+        width: 80vw;
+    }
+    input:hover{
+        box-shadow: 4px 8px 16px rgb(46, 148, 208);
+        width: 80%;
+    }
+    button:hover{
+        box-shadow: 4px 8px 16px rgb(46, 148, 208);
+    }
+}
+
+
